@@ -1,0 +1,233 @@
+@extends('layouts.auth-layout')
+
+@section('content')
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">{{ __('Register') }}</div>
+
+                    <div class="card-body">
+                        <form method="POST" action="{{ route('register') }}">
+                            @csrf
+
+                            <!-- Username -->
+                            <div class="row mb-3">
+                                <label for="username" class="col-md-4 col-form-label text-md-end">Username:</label>
+                                <div class="col-md-8">
+                                    <input id="username" type="text" class="form-control" name="username"
+                                        value="{{ old('username') }}">
+                                    <!-- Display error message -->
+                                    <small id="username-error" class="text-danger   mt-1"
+                                        style="display:none;"></small>
+
+                                    <!-- Suggestions container -->
+                                    <div id="username-suggestions" style="display:none;"></div>
+
+
+                                    @error('username')
+                                        <small
+                                            class="text-danger   d-block mt-1 server_error">{{ $message }}</small>
+                                    @enderror
+
+                                </div>
+                            </div>
+
+                            <!-- Dentist Name -->
+                            <div class="row mb-3">
+                                <label for="dentist_name" class="col-md-4 col-form-label text-md-end">Dentist Name:</label>
+                                <div class="col-md-8">
+                                    <input id="dentist_name" type="text" class="form-control" name="dentist_name"
+                                        value="{{ old('dentist_name') }}">
+                                    @error('dentist_name')
+                                        <small
+                                            class="text-danger   d-block mt-1 server_error">{{ $message }}</small>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <!-- GDC Number -->
+                            <div class="row mb-3">
+                                <label for="gdc_number" class="col-md-4 col-form-label text-md-end">GDC Number:</label>
+                                <div class="col-md-8">
+                                    <input id="gdc_number" type="text" class="form-control" name="gdc_number"
+                                        value="{{ old('gdc_number') }}">
+                                    @error('gdc_number')
+                                        <small
+                                            class="text-danger   d-block mt-1 server_error">{{ $message }}</small>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <!-- Practice Name -->
+                            <div class="row mb-3">
+                                <label for="practice_name" class="col-md-4 col-form-label text-md-end">Practice
+                                    Name:</label>
+                                <div class="col-md-8">
+                                    <input id="practice_name" type="text" class="form-control" name="practice_name"
+                                        value="{{ old('practice_name') }}">
+                                    @error('practice_name')
+                                        <small
+                                            class="text-danger   d-block mt-1 server_error">{{ $message }}</small>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <!-- Practice Address -->
+                            <div class="row mb-3">
+                                <label for="practice_address" class="col-md-4 col-form-label text-md-end">Practice
+                                    Address:</label>
+                                <div class="col-md-8">
+                                    <textarea id="practice_address" class="form-control" name="practice_address">{{ old('practice_address') }}</textarea>
+                                    @error('practice_address')
+                                        <small
+                                            class="text-danger   d-block mt-1 server_error">{{ $message }}</small>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <!-- Email Address -->
+                            <div class="row mb-3">
+                                <label for="email" class="col-md-4 col-form-label text-md-end">Email Address:</label>
+                                <div class="col-md-8">
+                                    <input id="email" type="email" class="form-control" name="email"
+                                        value="{{ old('email') }}">
+                                    @error('email')
+                                        <small
+                                            class="text-danger   d-block mt-1 server_error">{{ $message }}</small>
+                                    @enderror
+                                </div>
+                            </div>
+
+
+                            <!-- Routine Phone -->
+                            <div class="row mb-3">
+                                <label for="routine_phone" class="col-md-4 col-form-label text-md-end">Phone No.
+                                    (Routine):</label>
+                                <div class="col-md-8">
+                                    <input id="routine_phone" type="text" class="form-control" name="routine_phone"
+                                        value="{{ old('routine_phone') }}">
+                                    @error('routine_phone')
+                                        <small
+                                            class="text-danger   d-block mt-1 server_error">{{ $message }}</small>
+                                    @enderror
+                                </div>
+                            </div>
+
+                            <!-- Urgent Phone -->
+                            <div class="row mb-3">
+                                <label for="urgent_phone" class="col-md-4 col-form-label text-md-end">Phone No.
+                                    (Urgent):</label>
+                                <div class="col-md-8">
+                                    <input id="urgent_phone" type="text" class="form-control" name="urgent_phone"
+                                        value="{{ old('urgent_phone') }}">
+                                    @error('urgent_phone')
+                                        <small
+                                            class="text-danger   d-block mt-1 server_error">{{ $message }}</small>
+                                    @enderror
+                                </div>
+                            </div>
+
+
+
+                            <div class="row mb-0">
+                                <div class="col-md-6 offset-md-4">
+                                    <button type="submit" class="btn btn-primary">
+                                        {{ __('Register') }}
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="loader-overlay">
+        <div class="loader"></div>
+    </div>
+@endsection
+
+
+@push('scripts')
+    <script>
+        // Show loader on form submit
+        $('form').on('submit', function() {
+            $('#loader-overlay').addClass('active');
+        });
+
+        $('#username, #dentist_name, #gdc_number, #practice_name, #practice_address, #email, #routine_phone, #urgent_phone')
+            .on('input', function() {
+                $(this).siblings('.server_error').remove();
+            });
+
+
+        $(function() {
+            function checkUsernameAndSuggest() {
+                const username = $('#username').val();
+
+                if (username.length >= 3) {
+                    $.get("{{ route('username.suggestions') }}", {
+                        username
+                    }, function(data) {
+                        if (data.exists) {
+                            // Show error message when username exists
+                            $('#username-error').text(data.message).show();
+
+                            // Display suggestions in one line
+                            const suggestions = data.suggestions.map(s =>
+                                `<div class="suggestion-box-item m-1" style="cursor: pointer;">${s}</div>`
+                            ).join('');
+
+                            // Show suggestions with heading and suggestions in one line
+                            $('#username-suggestions').html(`
+                        <div class="d-flex align-items-center">
+                            <div style="font-size: 0.75rem;" class="mb-1 text-muted me-2">Suggestions:</div>
+                            <div class="d-flex flex-wrap gap-2">${suggestions}</div>
+                        </div>
+                    `).show();
+                        } else {
+                            // Hide error message if username is available
+                            $('#username-error').hide();
+
+                            // Hide suggestions if username is available
+                            $('#username-suggestions').hide();
+                        }
+                    });
+                } else {
+                    $('#username-suggestions').hide();
+                    $('#username-error').hide();
+                }
+            }
+
+            // Trigger username check when user types
+            $('#username').on('input', function() {
+                checkUsernameAndSuggest();
+            });
+
+            // Click on suggestion to fill in the username input field
+            $(document).on('click', '.suggestion-box-item', function() {
+                // Set the selected suggestion as the value of the username input field
+                $('#username').val($(this).text());
+
+                // Hide the suggestion box
+                $('#username-suggestions').hide();
+
+                // Hide the error message
+                $('#username-error').hide();
+            });
+
+            // Handle clicks outside to hide the suggestion box except when clicking inside the username input or suggestions box
+            // $(document).on('click', function (e) {
+            //     const username = $('#username').val();
+
+            //     // Check if the click happened outside the username input or suggestions box, and if the username is not empty
+            //     if (!$(e.target).closest('#username, #username-suggestions').length && username.length >= 3) {
+            //         $('#username-error').hide();
+            //         $('#username-suggestions').hide();
+            //     }
+            // });
+        });
+    </script>
+@endpush

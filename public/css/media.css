@@ -1,0 +1,986 @@
+@media (min-width:1851px) and (max-width:3000px)
+{
+}
+
+@media (min-width:1601px) and (max-width:1850px)
+{
+.dasboard-schedule-grid-left {
+width: 100%;
+border-right: 0;
+padding: 22px;
+border-bottom: 1px solid #F1F1F1;
+}
+.dasboard-schedule-grid-right {
+width: 100%;
+padding: 25px 15px;
+}
+.faciliator-list-grid a {
+align-items: center;
+padding: 14px;
+flex-direction: column;
+}
+.faciliator-grid-name {
+padding: 10px 0 0 0;
+width: 100%;
+text-align: center;
+}
+.left-fix-con::before {
+	height: 320px;
+}
+.workshop-schedule-filter-row {
+	gap: 5px;
+}
+
+
+
+
+}
+
+@media (min-width:1367px) and (max-width:1600px)
+{
+.dasboard-schedule-grid-left 
+{
+width: 100%;
+border-right: 0;
+padding: 22px;
+border-bottom: 1px solid #F1F1F1;
+}
+.dasboard-schedule-grid-right 
+{
+width: 100%;
+padding: 25px 15px;
+}
+.faciliator-list-grid a 
+{
+align-items: center;
+padding: 14px;
+flex-direction: column;
+}
+.faciliator-grid-name 
+{
+padding: 10px 0 0 0;
+width: 100%;
+text-align: center;
+}
+.left-fix-con {
+width: 280px;
+padding: 110px 20px 110px 20px;
+}
+.CP-logo-con {
+width: 280px;
+padding-left: 50px;
+}
+.CP-headerRightOuter {
+width: calc(100% - 280px);
+padding: 0 30px 0 30px;
+}
+.right-side-con {
+width: calc(100% - 280px);
+padding: 35px 30px 215px 30px;
+}	
+.dasboard-panel-grid-left {
+max-width: 750px;
+}
+.dasboard-panel-grid-right {
+max-width: calc(100% - 750px);
+padding-left: 20px;
+}
+.faciliator-profile-out {
+height: 127px;
+width: 127px;
+}
+.heding34 {
+font-size: 30px;
+line-height: 32px;
+}
+.CP-profilePicOuter a span strong {
+font-size: 18px;
+line-height: 19px;
+}
+.CP-profilePicOuter a span {
+font-size: 12px;
+line-height: 23px;
+}
+select.custom-select {
+min-width: 220px;
+height: 35px;
+padding: 6px 50px 6px 16px;
+font-size: 13px;
+line-height: 36px;
+line-height: 22px;
+}
+.dasboard-panel-grid-left thead tr th {
+font-size: 13px;
+line-height: 35px;
+padding: 12px;
+}
+.dasboard-panel-grid-left tbody tr td, .dasboard-panel-grid-left tbody tr th {
+font-size: 12px;
+line-height: 35px;
+padding: 13px;
+}
+.dasboard-schedule-grid-left h2 {
+font-size: 21px;
+line-height: 24px;
+}
+.dasboard-schedule-grid-left h4.lc-text {
+font-size: 12px;
+line-height: 22px;
+}
+.left-nav-con li a {
+padding: 15px 25px 15px 30px;
+margin-bottom: 5px;
+font-size: 15px;
+line-height: 35px;
+}
+.CP-logo-con img {
+width: 150px;
+}
+.faciliator-grid-name h4 {
+font-size: 15px;
+line-height: 23px;
+}
+.faciliator-grid-name span.faciliator-designation {
+font-size: 12px;
+line-height: 16px;
+}
+.faciliator-grid-percentage {
+font-size: 18px;
+line-height: 34px;
+}
+.left-fix-con::before {
+	height: 320px;
+}
+.dasboard-schedule-grid-right .content {
+	height: 180px;
+	overflow: auto;
+}
+.workshop-schedule-filter-row {
+	gap: 5px;
+}
+.customers-profile-right {
+	padding-left: 40px;
+}
+.customers-profile-panel {
+	padding: 30px;
+}
+.custom-button.send-message-btnn a {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.customers-profile-contactgrid > p {
+	font-size: 13px;
+	line-height: 26px;
+}
+
+
+}
+
+@media (min-width:1200px) and (max-width:1366px)
+{
+	
+.dasboard-schedule-grid-left {
+	width: 210px;
+	border-right: 0;
+	padding: 20px;
+	border-bottom: 1px solid #F1F1F1;
+}
+.dasboard-schedule-grid-right {
+	width: calc(100% - 210px);
+	padding: 25px 15px;
+}
+.faciliator-list-grid a {
+	align-items: center;
+	padding: 20px 20px;
+	flex-direction: unset;
+}
+.dasboard-schedule-grid-left .custom-button a {
+	min-width: 100%;
+}
+.faciliator-grid-name {
+	padding-left: 24px;
+}
+.left-fix-con {
+width: 280px;
+padding: 110px 20px 110px 20px;
+}
+.CP-logo-con {
+    width: 280px;
+    padding-left: 50px;
+    justify-content: left;
+}
+.CP-logo-con img {
+    width: 200px;
+}
+.CP-headerRightOuter {
+width: calc(100% - 280px);
+padding: 0 30px 0 30px;
+}
+.right-side-con {
+width: calc(100% - 280px);
+padding: 35px 20px 205px 20px;
+}	
+.dasboard-panel-grid-left {
+	max-width: 100%;
+}
+.dasboard-panel-grid-right {
+	max-width: 100%;
+	padding-left: 0;
+	margin-top: 20px;
+}
+.payment-row-grid input {
+    font-size: 11px !important;
+}
+
+
+}
+
+@media (min-width:992px) and (max-width:1199px)
+{
+.dasboard-schedule-grid-left {
+width: 260px;
+padding: 10px;
+border-bottom: 1px solid #F1F1F1;
+}
+.dasboard-schedule-grid-right {
+width: calc(100% - 260px);
+padding: 25px 15px;
+}
+.faciliator-list-grid a {
+align-items: center;
+padding: 12px 12px;
+flex-direction: unset;
+}
+.faciliator-grid-name {
+padding: 10px 0 0 25px;
+width: calc(100% - 105px);
+text-align: left;
+}
+.left-fix-con {
+width: 240px;
+padding: 110px 20px 110px 20px;
+}
+.CP-logo-con {
+width: 240px;
+padding-left: 40px;
+}
+.CP-headerRightOuter {
+width: calc(100% - 240px);
+padding: 0 20px 0 20px;
+}
+.right-side-con {
+width: calc(100% - 240px);
+padding: 30px 20px 205px 20px;
+}
+.dasboard-panel-grid-left {
+max-width: 100%;
+}
+.faciliator-profile-out {
+height: 124px;
+width: 124px;
+}
+.dasboard-panel-grid-right {
+max-width: 100%;
+padding-left: 0;
+margin: 20px 0 0px 0;
+}
+.heding34 {
+font-size: 23px;
+line-height: 25px;
+}
+.dasboard-panel-grid-row {
+margin-top: 15px;
+}
+
+.CP-profilePicOuter a span strong {
+font-size: 18px;
+line-height: 19px;
+}
+.CP-profilePicOuter a span {
+font-size: 12px;
+line-height: 23px;
+}
+select.custom-select {
+min-width: 220px;
+height: 35px;
+padding: 6px 50px 6px 16px;
+font-size: 13px;
+line-height: 36px;
+line-height: 22px;
+}
+.dasboard-panel-grid-left thead tr th {
+font-size: 13px;
+line-height: 35px;
+padding: 12px;
+}
+.dasboard-panel-grid-left tbody tr td, .dasboard-panel-grid-left tbody tr th {
+font-size: 12px;
+line-height: 14px;
+padding: 13px;
+}
+/****/
+.register-left-inner {
+    padding-right: 10px;
+}
+.des-table {
+    overflow-x: auto;
+}
+.CP-logo-con img {
+    width: 92%;
+}
+.deshboard-table .header-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.patient-information-inn.payment-row {
+    flex-wrap: wrap;
+}
+.col-md-9.payment-row-grid {
+    width: 100%;
+}
+.col-md-3.payment-row-grid.btn {
+    width: 100%;
+}
+/***/
+}
+
+@media (min-width:768px) and (max-width:991px)
+{
+	
+.dasboard-schedule-grid-left {
+width: 200px;
+padding: 10px;
+border-bottom: 1px solid #F1F1F1;
+}
+.dasboard-schedule-grid-right {
+width: calc(100% - 200px);
+padding: 25px 15px;
+}
+.faciliator-list-grid a {
+align-items: center;
+padding: 12px 12px;
+flex-direction: unset;
+}
+.faciliator-grid-name {
+padding: 10px 0 0 25px;
+width: calc(100% - 105px);
+text-align: left;
+}
+
+.CP-logo-con {
+width: 190px;
+padding-left: 25px;
+}
+.CP-headerRightOuter {
+width: calc(100% - 190px);
+padding: 0 15px 0 15px;
+}
+.right-side-con {
+width: 100%;
+padding: 10px 15px 135px 15px;
+}
+.dasboard-panel-grid-left {
+max-width: 100%;
+}
+.faciliator-profile-out {
+height: 114px;
+width: 114px;
+}
+.dasboard-panel-grid-right {
+max-width: 100%;
+padding-left: 0;
+margin: 20px 0 0px 0;
+}
+.heding34 {
+font-size: 23px;
+line-height: 25px;
+}
+.dasboard-panel-grid-row {
+margin-top: 15px;
+}
+.CP-profilePicOuter a span strong {
+font-size: 18px;
+line-height: 19px;
+}
+.CP-profilePicOuter a span {
+font-size: 12px;
+line-height: 23px;
+}
+select.custom-select {
+min-width: 150px;
+height: 35px;
+padding: 6px 50px 6px 16px;
+font-size: 13px;
+line-height: 36px;
+line-height: 22px;
+}
+.CP-HeaderRightInner {
+width: calc(100% - 140px);
+
+}
+.dasboard-panel-grid-left thead tr th {
+font-size: 13px;
+line-height: 35px;
+padding: 12px;
+}
+.dasboard-panel-grid-left tbody tr td, .dasboard-panel-grid-left tbody tr th {
+font-size: 12px;
+line-height: 14px;
+padding: 13px;
+}
+.register-request {
+    padding: 62px;
+}
+.register-request-grid {
+    padding: 20px;
+}
+.register-left-inner {
+    padding-right: 0;
+}
+/****/
+.right-side-con {
+    width: calc(100% - 190px);
+    padding: 30px 20px 205px 20px;
+}
+.des-table {
+    overflow-x: auto;
+}
+.CP-logo-con img {
+    width: 92%;
+}
+.deshboard-table .header-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.left-fix-con {
+    width: 191px;
+    padding: 110px 15px 110px 15px;
+}
+.deshboard-table input {
+    padding: 11px 43px !important;
+    width: 173px;
+}
+.header-breadcrumb nav .breadcrumb li, .header-breadcrumb nav .breadcrumb li a {
+    font-size: 15px;
+}
+.left-nav-con li a {
+    font-size: 14px;
+}
+.patient-information-inn.payment-row {
+    flex-wrap: wrap;
+}
+.col-md-9.payment-row-grid {
+    width: 100%;
+}
+.col-md-3.payment-row-grid.btn {
+    width: 100%;
+}
+.patient-wrap .form-field-row.full-row {
+    flex-wrap: wrap;
+}
+.patient-wrap .form-field-row .form-field {
+    width: 100%;
+}
+/***/
+
+}
+
+@media (max-width:767px)
+{
+.custom-calendar-main {overflow: auto;
+}
+.dasboard-schedule-grid-left {
+width: 200px;
+padding: 10px;
+border-bottom: 1px solid #F1F1F1;
+}
+.dasboard-schedule-grid-right {
+width: calc(100% - 200px);
+padding: 25px 15px;
+}
+.faciliator-list-grid a {
+align-items: center;
+padding: 12px 12px;
+flex-direction: unset;
+}
+.faciliator-grid-name {
+padding: 10px 0 0 25px;
+width: calc(100% - 105px);
+text-align: left;
+}
+
+.CP-logo-con {
+width: 190px;
+padding-left: 25px;
+}
+.CP-headerRightOuter {
+	width: calc(100% - 190px);
+	padding: 0 15px 0 15px;
+	box-shadow: unset;
+	border-left: 1px solid #EEEEEE;
+}
+.right-side-con {
+width: 100%;
+padding: 10px 15px 135px 15px;
+}
+.dasboard-panel-grid-left {
+max-width: 100%;
+}
+
+.faciliator-profile-out {
+height: 114px;
+width: 114px;
+}
+.dasboard-panel-grid-right {
+max-width: 100%;
+padding-left: 0;
+margin: 20px 0 0px 0;
+}
+.heding34 {
+font-size: 23px;
+line-height: 25px;
+}
+.dasboard-panel-grid-row {
+margin-top: 15px;
+}
+.CP-profilePicOuter a span strong {
+font-size: 18px;
+line-height: 19px;
+}
+.CP-profilePicOuter a span {
+font-size: 12px;
+line-height: 23px;
+}
+select.custom-select {
+min-width: 150px;
+height: 35px;
+padding: 6px 50px 6px 16px;
+font-size: 13px;
+line-height: 36px;
+line-height: 22px;
+}
+.CP-HeaderRightInner {
+width: calc(100% - 140px);
+
+}
+.dasboard-panel-grid-left thead tr th {
+font-size: 13px;
+line-height: 35px;
+padding: 12px;
+}
+.dasboard-panel-grid-left tbody tr td, .dasboard-panel-grid-left tbody tr th {
+font-size: 12px;
+line-height: 14px;
+padding: 13px;
+}
+.faciliator-grid-percentage {
+font-size: 14px;
+line-height: 31px;
+}
+.progress-profile-complete {
+height: 2px;
+}
+.progress-profile-complete > span {
+height: 2px;
+}
+.left-nav-con li a {
+padding: 12px 15px 12px 18px;
+margin-bottom: 5px;
+font-size: 14px;
+line-height: 33px;
+-webkit-border-radius: 8px;
+}
+.CP-logo-con img {
+width: 110px;
+}
+.faciliator-grid-name h4 {
+font-size: 14px;
+line-height: 22px;
+}.faciliator-grid-name span.faciliator-designation {
+font-size: 10.5px;
+line-height: 15px;
+}
+
+.CP-HeaderRightInner-grid {
+padding: 10px 14px;
+min-width: 60px;
+}
+.CP-NotificationDropdownCon li a {
+font-size: 13px;
+line-height: 15px;
+}
+.CP-profilePicOuter .dropdown-menu li a {
+font-size: 13px;
+line-height: 25px;
+}
+.CP-HeaderSearchOuter {
+width: 140px;
+padding-left: 0;
+display: flex;
+}
+.CP-HeaderSearchOuter button img {
+max-width: 18px;
+}
+.CP-profilePicOuter a span {
+font-size: 12px;
+line-height: 23px;
+display: none;
+}
+.CP-profilePicOuter img {
+width: 50px;
+height: 50px;
+margin-right: 4px;
+}
+header {
+height: 70px;
+}
+.CP-dashboardContentOuterPanel {
+margin-top: 70px;
+}
+.left-nav-con {
+margin-top: 10px;
+}
+.CP-NotificationCon a > img {
+max-height: 18px;
+max-width: 18px;
+}
+.CP-NotificationCon span {
+top: 2px;
+right: 8px;
+font-size: 8px;
+line-height: 9px;
+width: 10px;
+height: 10px;
+}
+.CP-HeaderRightInner-grid.profilePicOuter-grid .dropdown-toggle::after {
+width: 35px !important;
+height: 12px;
+right: -10px;
+top: 26px;
+}
+.CP-HeaderRightInner-grid.profilePicOuter-grid {
+min-width: unset;
+width: 100px;
+border-right: 1px solid #EEEEEE;
+}
+button.navbar-toggle {
+display: block !important;
+position: relative;
+right: 11px;
+top: 0px;
+margin: 0;
+padding: 0;
+cursor: pointer;
+background: transparent;
+border: 0px;
+z-index: 99999;
+text-align: right;
+width: 27px;
+height: 30px;
+margin-left: 30px;
+}
+button.navbar-toggle .icon-bar {
+display: block;
+width: 32px;
+height: 3px;
+border-radius: 0px;
+background: #383E42;
+transition: all 0.2s ease-in-out;
+-webkit-transition: all 0.2s ease-in-out;
+float: left;
+width: 100%;
+border-radius: 9px;
+}
+button.navbar-toggle .icon-bar + .icon-bar {
+margin-top: 4px;
+}
+.nav-open button.navbar-toggle {
+
+}
+.nav-open button.navbar-toggle .icon-bar:nth-child(1) {
+-webkit-transform: rotate(44deg);
+left: 0px;
+position: relative;
+top: 5px;
+width: 26px;
+}
+.nav-open button.navbar-toggle .icon-bar:nth-child(2) {
+display: none;
+}
+.nav-open button.navbar-toggle .icon-bar:nth-child(3) {
+transform: rotate(45deg);
+-webkit-transform: rotate(134deg);
+left: 0px;
+position: relative;
+top: -2px;
+}
+button.navbar-toggle .icon-bar:nth-child(1) {
+width: 15px;
+}
+button.navbar-toggle .icon-bar:nth-child(2) {
+width: 20px;
+}
+.CP-NotificationCon {
+text-align: center;
+}
+
+button.navbar-toggle:hover .icon-bar:nth-child(1) {
+width:26px;
+}
+button.navbar-toggle:hover .icon-bar:nth-child(2) {
+width:33px;
+}
+
+.CP-navbarOuterMain.open-nav {
+left: 0px;
+width: 240px;
+z-index: 99;
+height: 100vh;
+position: fixed;
+}
+
+.left-fix-con {
+position: fixed;
+left: -300px;
+height: 100vh;
+top: 0;
+width: 190px !important;
+transition: 0.7s all ease;
+-webkit-transition: 0.7s all ease;
+display: block;
+right: auto;
+padding: 80px 20px 20px 20px;
+background-size: cover;
+overflow: auto;
+z-index: 9;
+}
+body.nav-open .left-fix-con {
+left: 0;
+}
+.CP-headerleftOuter {
+background:transparent;
+border-bottom: 1px solid transparent;
+}
+/* .nav-open .CP-headerleftOuter {
+background: #f9cf00;
+border-bottom: 1px solid rgba(234, 196, 10, 0.67);
+} */
+.CP-dashboardContentOuterPanel::before {
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+background: #00000029;
+content: "";
+z-index: 9;
+opacity:0;
+display:none;
+}
+.nav-open .CP-dashboardContentOuterPanel::before
+{
+opacity:1;display:block;
+} 
+.dropdown-menu.CP-NotificationDropdownCon {
+margin-top: 30px !important;
+left: 0 !important;
+transform: translate(-74px, 25px) !important;
+}
+.CP-HeaderRightInner-grid.message-notification1 .dropdown-menu.CP-NotificationDropdownCon {
+transform: translate(-14px, 25px) !important;
+}
+.CP-HeaderRightInner-grid.profilePicOuter-grid .dropdown-menu {
+transform: translate(-10px, 54px) !important;
+}	
+/**26/05/2025***/
+.page-banner h1 {
+    font-size: 28px;
+    line-height: 30px;
+}
+.form-field-row.full-row {
+    flex-wrap: wrap;
+}
+.form-field-row .form-field {
+    width: 100%;
+}
+.register-form {
+    padding: 25px 20px;
+}
+.form-field-row.button-fieldd a {
+    min-width: 100%;
+}
+.template-footer-inn {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.all-readsy-member-row h6 {
+    font-size: 16px;
+}
+.register-right-inner ul {
+    padding-left: 18px;
+    border-left: unset;
+    padding-top: 10px;
+}
+.register-left-inner {
+    padding-right: 0;
+}
+.register-request-grid {
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.des-table {
+    overflow-x: auto;
+}
+.deshboard-table .header-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.dropedown-table-sec {
+    flex-wrap: wrap;
+}
+header.db-header {
+    height: 72px;
+}
+.CP-headerRightOuter {
+    width: calc(100% - 170px);
+    padding: 0 15px 0 15px;
+    box-shadow: unset;
+    border-left: 0;
+}
+.CP-logo-con {
+    justify-content: left;
+	padding-left: 12px;
+}
+.CP-logo-con img {
+    width: 90%;
+    mix-blend-mode: multiply;
+}
+body.nav-open .left-fix-con {
+    width: 80% !important;
+}
+.CP-HeaderRightInner {
+	width: 103%;
+}
+.CP-logo-con {
+    width: 178px;
+    background-color: #eef2f5;
+}
+.CP-HeaderRightInner-grid.all-notifications1 .dropdown-menu.CP-NotificationDropdownCon.show {
+    left: -139px !important;
+    width: 287px;
+	right: 0px !important;
+}
+.CP-HeaderRightInner-grid.profilePicOuter-grid .dropdown-menu {
+    transform: translate(-72px, 28px) !important;
+}
+.deshboard-table input {
+    width: 100%;
+}
+.dropedown-table-sec .dropdown {
+    width: 100%;
+}
+.dropedown-table-sec button {
+    width: 100%;
+}
+.deshboard-table .header-controls {
+    padding: 20px;
+}
+.CP-HeaderSearchOuter {
+	width: 100%;
+	padding-left: 0;
+	display: none;
+}
+.patient-information-inn.payment-row {
+    flex-wrap: wrap;
+}
+.col-md-9.payment-row-grid {
+    width: 100%;
+}
+.col-md-3.payment-row-grid.btn {
+    width: 100%;
+}
+.upload-files-row2 {
+    flex-wrap: wrap;
+}
+.upload-files-row2-left {
+    width: 100%;
+    min-height: auto;
+    margin-bottom: 20px;
+}
+.upload-files-row2-right {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.register-inner-wrap h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+.register-inner-wrap p {
+    font-size: 14px;
+}
+.register-left-inner h4 {
+    font-size: 16px;
+}
+/**26/05/2025***/
+
+}
+
+@media (max-width:639px)
+{
+.CP-HeaderSearchOuter.mobile-view1 {
+	display: flex !important;
+	background: #fff;
+	height: 40px;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+.CP-HeaderSearchOuter input {
+	width: 100%;
+}
+.CP-HeaderRightInner-grid {
+	padding: 8px 5px;
+	min-width: 50px;
+}
+.CP-HeaderRightInner-grid.message-notification1 {
+	border-left: 0;
+}
+.CP-profilePicOuter img {
+	width: 40px;
+	height: 40px;
+	margin-right: 4px;
+}
+.CP-HeaderRightInner-grid.profilePicOuter-grid {
+	width: 70px;
+}
+.CP-HeaderRightInner-grid.profilePicOuter-grid .dropdown-toggle::after {
+	width: 25px !important;
+	height: 12px;
+	right: -4px;
+	top: 19px;
+}
+.left-fix-con {
+	padding: 80px 15px 20px 15px;
+}
+.heding34 {
+	font-size: 21px;
+	line-height: 23px;
+}
+.dasboard-schedule-grid-right {
+	width: 100%;
+	padding: 25px 15px;
+}
+.dasboard-schedule-grid-left {
+	width: 50%;
+	padding: 10px;
+	border: 0;
+	margin: auto;
+	margin-top: 10px;
+}
+
+
+}
+

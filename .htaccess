@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    # If the request is NOT for something in /public already
+
+    RewriteCond %{REQUEST_URI} !^/public/
+
+    # Handle root route separately
+
+    RewriteRule ^$ public/index.php [L]
+
+    # Handle all other routes
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
